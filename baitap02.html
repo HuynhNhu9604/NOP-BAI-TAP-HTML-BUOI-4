@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form đặt hàng sản phẩm</title>
+    <style>
+      body {
+        color: #1900f9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form đặt hàng sản phẩm</h1>
+
+    <form>
+      <fieldset>
+        <legend>Thông tin đơn hàng</legend>
+        <table>
+          <tr>
+            <td>Tên sản phẩm:</td>
+            <td>
+              <select name="product">
+                <option>iPhone 15</option>
+                <option>Samsung S23</option>
+                <option>Oppo Find X6</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Số lượng:</td>
+            <td><input type="number" name="quantity" min="1" /></td>
+          </tr>
+          <tr>
+            <td>Upload ảnh thanh toán:</td>
+            <td><input type="file" name="payment_image" /></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <button type="submit" class="btn">Đặt hàng</button>
+    </form>
+  </body>
+</html>

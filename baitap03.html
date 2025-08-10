@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form khảo sát ý kiến</title>
+    <style>
+      body {
+        color: #c700f9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form khảo sát ý kiến</h1>
+
+    <form>
+      <table>
+        <tr>
+          <td>Họ tên:</td>
+          <td><input type="text" name="name" size="40" /></td>
+        </tr>
+        <tr>
+          <td>Mức độ hài lòng:</td>
+          <td><input type="range" name="satisfaction" min="0" max="10" /></td>
+        </tr>
+        <tr>
+          <td>Thời gian liên hệ:</td>
+          <td><input type="time" name="contact_time" /></td>
+        </tr>
+        <tr>
+          <td>Kênh thông tin:</td>
+          <td>
+            <input type="checkbox" name="channel" value="facebook" /> Facebook
+            <input type="checkbox" name="channel" value="youtube" /> YouTube
+            <input type="checkbox" name="channel" value="website" /> Website
+          </td>
+        </tr>
+        <tr>
+          <td>Góp ý khác:</td>
+          <td><textarea name="feedback"></textarea></td>
+        </tr>
+      </table>
+
+      <button type="submit" class="btn">Gửi</button>
+    </form>
+  </body>
+</html>

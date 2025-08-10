@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form đăng ký tài khoản</title>
+    <style>
+      body {
+        color: #009af9;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Form đăng ký tài khoản</h2>
+      <table>
+        <tr>
+          <td>Họ tên:</td>
+          <td><input type="text" name="fullname" /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td>Mật khẩu:</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+        <tr>
+          <td>Ngày sinh:</td>
+          <td><input type="date" name="dob" /></td>
+        </tr>
+        <tr>
+          <td>Giới tính:</td>
+          <td>
+            <input type="radio" name="gender" /> Nam
+            <input type="radio" name="gender" /> Nữ
+            <input type="radio" name="gender" /> Khác
+          </td>
+        </tr>
+        <tr>
+          <td>Sở thích:</td>
+          <td>
+            <input type="checkbox" name="hobby" /> Nau an
+            <input type="checkbox" name="hobby" /> The thao
+            <input type="checkbox" name="hobby" /> Sang tao
+          </td>
+        </tr>
+        <tr>
+          <td>Mô tả bản thân:</td>
+          <td><textarea name="description"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit" class="btn">Đăng ký</button>
+            <button type="reset" class="btn">Xóa</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

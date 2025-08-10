@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Đăng Ký</title>
+    <style>
+      body {
+        color: #004bf9;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td colspan="2" class="title">ĐĂNG KÝ</td>
+        </tr>
+        <tr>
+          <td>Full name</td>
+          <td><input type="text" placeholder="Nhập fullname" /></td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td><input type="text" placeholder="Nhập tên" /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" placeholder="Nhập mật khẩu" /></td>
+        </tr>
+        <tr>
+          <td>Nhập lại Password</td>
+          <td><input type="password" placeholder="Nhập lại mật khẩu" /></td>
+        </tr>
+        <tr>
+          <td>Giới tính</td>
+          <td>
+            <input type="radio" name="gender" /> Nam
+            <input type="radio" name="gender" /> Nữ
+          </td>
+        </tr>
+        <tr>
+          <td>Ngày sinh</td>
+          <td>
+            <select>
+              <option>Ngày 1</option>
+              <option>Ngày 2</option>
+            </select>
+            <select>
+              <option>Tháng 1</option>
+              <option>Tháng 2</option>
+            </select>
+            <select>
+              <option>Năm 2015</option>
+              <option>Năm 2016</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Địa chỉ</td>
+          <td><textarea></textarea></td>
+        </tr>
+        <tr>
+          <td>Avatar</td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td>Sở thích</td>
+          <td>
+            <input type="checkbox" /> Xem Phim <input type="checkbox" /> Thể
+            Thao <input type="checkbox" /> Web
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button type="reset" class="btn">Reset</button>
+            <button type="submit" class="btn">OK</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

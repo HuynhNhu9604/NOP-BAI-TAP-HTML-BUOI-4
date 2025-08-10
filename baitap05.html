@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Form liên hệ nhiều bước</title>
+<style>
+    body {
+     
+        color: #004bf9;
+      }
+    
+</style>
+</head>
+<body>
+
+<h1>Form liên hệ nhiều bước</h1>
+
+<form>
+    <fieldset>
+        <legend>Thông tin cá nhân</legend>
+        <table>
+            <tr>
+                <td>Họ tên:</td>
+                <td><input type="text" name="hoten"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="tel" name="sdt"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Thông tin yêu cầu</legend>
+        <table>
+            <tr>
+                <td>Loại yêu cầu:</td>
+                <td>
+                    <select name="loaiyeucau">
+                        <option>Hỗ trợ kỹ thuật</option>
+                        <option>Tư vấn</option>
+                        <option>Khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Mô tả:</td>
+                <td><textarea name="mota"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Thông tin bổ sung</legend>
+        <input type="checkbox" name="khuyenmai"> Nhận email khuyến mãi <br>
+        Cách liên hệ:
+        <input type="radio" name="lienhe" value="email"> Email
+        <input type="radio" name="lien
